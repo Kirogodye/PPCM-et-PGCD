@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 int main() {
+    
     // déclaration des variables
     int a;   // nombre 1
     int b;   // nombre 2
@@ -9,9 +10,9 @@ int main() {
     int PPCM; // PPCM (initialisé à 0)
 
     printf("Entrer le nombre a: ");
-    scanf("%d", &a); // Suppression de \n
+    scanf("%d", &a);
     printf("Entrer le nombre b: ");
-    scanf("%d", &b); // Suppression de \n
+    scanf("%d", &b);
 
     // Calcul du PGCD
     for (i = 1; i <= a && i <= b; ++i) {
